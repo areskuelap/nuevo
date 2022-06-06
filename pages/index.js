@@ -298,7 +298,7 @@ const isMobile = width <= 768;
 
             <p className="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 mx-auto text-xl font-medium text-gray-100">
               Next to the search box, select a language you want to search in<br /> 
-              You might face some errors, but we are working to solve them.
+              Try using longer sentences to get more accurate search results.
 
             </p>
 
