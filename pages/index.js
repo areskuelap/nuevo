@@ -297,8 +297,8 @@ const isMobile = width <= 768;
           <div className="w3-row-padding w3-center">
 
             <p className="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 mx-auto text-xl font-medium text-gray-100">
-              In the search results web page select the language in which you want to see the search results<br /> 
-              And always enable “Translate always from X language” 
+              Next to the search box, select a language you want to search in<br /> 
+              You might face some errors, but we are working to solve them.
 
             </p>
 
