@@ -406,7 +406,7 @@ const isMobile = width <= 768;
       </section>  *}
       {/* join section */}
       <section className=" py-20 px-4">
-        <h3 className="w-full md:w-4/5 lg:w-3/4 xl:w-3/5 2xl:w-3/5 mx-auto text-center text-2xl md:text-5xl lg:text-5xl xl:text-5xl 2xl:text-5xl" >Join students and tourists worlwide who already use Konlap</h3>
+        <h3 className="w-full md:w-4/5 lg:w-3/4 xl:w-3/5 2xl:w-3/5 mx-auto text-center text-2xl md:text-5xl lg:text-5xl xl:text-5xl 2xl:text-5xl" >Join people worldwide who already use Konlap</h3>
         <div className="join-btn flex justify-center mt-8">
           <button className="btn py-2 px-6 bg-sky-500 hover:bg-sky-600 text-lg text-gray-100 inline-block">Add Konlap to your Browser - it's free</button>
         </div>
