@@ -26,7 +26,7 @@ export default function About(data) {
         <div className="page_conentst_desc">
           
             
-            <p><strong>Our Team</strong><br></br> Konlap.com is owned and operated by Konlap Technologies, a Peruvian company, directed and managed from its headquarters in Chachapoyas (Peru), by our founder Hector Diaz. You can contact us at contact@konlap.com</p>
+            <p><strong>Ownership and Contact</strong><br></br> Konlap Web Browser is owned and operated by Konlap Technologies E.I.R.L. a Peruvian company, directed and managed from its headquarters in Amazonas (Peru). You can contact us at konlaptechs@gmail.com</p>
             </div><div>
         </div>
       </div>
