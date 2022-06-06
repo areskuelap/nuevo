@@ -50,7 +50,10 @@
   display: inline-block;
 }
 .goog-te-banner-frame{
-  /*display: none;*/
+  display: none;
+}
+.goog-te-banner {
+display: none;
 }
 .goog-logo-link img{
   display: inherit;
@@ -104,4 +107,3 @@ padding-top:10px  !important;
 margin-top:60px !important;
 }
 }
-
