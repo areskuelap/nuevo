@@ -21,20 +21,20 @@ console.error(`Failed ${onError.target.src} didn't load correctly`);
     
   React.useEffect(async() => {
     const LoadExternalScript = async () => {
-    const externalScript = document.createElement("script");
-    externalScript.onerror = loadError;
-    externalScript.id = "external";
-    externalScript.async = true;
-    externalScript.type = "text/javascript";
-    //externalScript.setAttribute("crossorigin", "anonymous");
-    document.body.appendChild(externalScript);
-    externalScript.src = `//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit`;
+      const externalScript = document.createElement("script");
+      externalScript.onerror = loadError;
+      externalScript.id = "external";
+      externalScript.async = true;
+      externalScript.type = "text/javascript";
+      //externalScript.setAttribute("crossorigin", "anonymous");
+      document.body.appendChild(externalScript);
+      externalScript.src = `//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit`;
+      
+    };
+    await LoadExternalScript();
+    // setTimeout(function(){ googleTranslateElementInit(); }, 400);
     
-  };
-  await LoadExternalScript();
-  // setTimeout(function(){ googleTranslateElementInit(); }, 400);
-  
-}, []);
+  }, []);
   return (
     <div>
       <Head>
@@ -58,10 +58,11 @@ console.error(`Failed ${onError.target.src} didn't load correctly`);
 export default Search;
 
 export async function getServerSideProps(context) {
+  console.log(context.query)
   const useDummyData = false;
   const startIndex = context.query.start || "0";
 
-  const translatedText = await translate(context.query.term, {to: context.query.lan});
+  const translatedText = await translate(context.query.term, {to: context?.query?.lan||'en'});
   const data = useDummyData
     ? Response
     : await fetch(
@@ -70,7 +71,7 @@ export async function getServerSideProps(context) {
   return {
     props: {
       results: data,
-      language: context.query.lan
+      language: context?.query?.lan||'en'
     },
   };
 }
