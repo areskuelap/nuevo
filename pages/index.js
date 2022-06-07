@@ -259,7 +259,7 @@ const isMobile = width <= 768;
           onChange={changeHandler} 
         /></>:null}
         <div className="  flex flex-col w-1/2 space-y-2 justify-center mt-8 sm:space-y-0 sm:flex-row sm:space-x-4" style={{ maxWidth: 300, display: isMobile?'flex': 'none' }}>
-          <button onClick={search} className="btn text-lg font-semibold bg-sky-500 hover:bg-sky-600 p-2 text-gray-100 hover:text-gray-100">Google Search</button>
+          <button onClick={search} className="btn text-lg font-semibold bg-sky-500 hover:bg-sky-600 p-2 text-gray-100 hover:text-gray-100">Search</button>
          {/* <button onClick={search} className="btn">
             I&apos;m Feeling Lucky
           </button>*/}
