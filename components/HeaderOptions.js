@@ -32,7 +32,7 @@ const isMobile = width <= 768;
         {
           isMobile === false?<>
                  <HeaderOption Icon={PhotographIcon} title="Images" />
-          <HeaderOption Icon={PlayIcon} title="Videos" />*
+          <HeaderOption Icon={PlayIcon} title="Videos" />
         <HeaderOption Icon={NewspaperIcon} title="News" />
          <HeaderOption Icon={MapIcon} title="Maps" />
         <HeaderOption Icon={DotsVerticalIcon} title="More" />
