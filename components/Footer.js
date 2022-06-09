@@ -24,7 +24,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex justify-center md:justify-end lg:justify-end xl:justify-end 2xl:justify-end gap-x-4 text-sm text-slate-700 text-center py-4">
-        <a href="https://www.linkedin.com/company/konlap"><i className="fa fa-linkedin text-lg text-sky-700 hover:text-sky-500" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/company/konlap" target="_blank"><i className="fa fa-linkedin text-lg text-sky-700 hover:text-sky-500" aria-hidden="true"></i></a>
       </div>
     </footer>
   );
