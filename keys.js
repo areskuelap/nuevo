@@ -1,3 +1,3 @@
-export const API_KEY = AIzaSyBxN3-lApxwD736Mm3Hd3WlSiViLCJTfWs
+export const API_KEY="";
+export const CONTEXT_KEY="";
 
-export const CONTEXT_KEY = 88201975a12a6f4fd
