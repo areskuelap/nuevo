@@ -58,6 +58,7 @@ console.error(`Failed ${onError.target.src} didn't load correctly`);
 export default Search;
 
 export async function getServerSideProps(context) {
+  
   console.log(context.query)
   const useDummyData = false;
   const startIndex = context.query.start || "0";
@@ -66,7 +67,7 @@ export async function getServerSideProps(context) {
   const data = useDummyData
     ? Response
     : await fetch(
-      encodeURI(`https://www.googleapis.com/customsearch/v1?key=${process.env.API_KEY}&cx=${process.env.CONTEXT_KEY}&q=${translatedText.text}&start=${startIndex}`)
+      encodeURI(`https://www.googleapis.com/customsearch/v1?key=AIzaSyBxN3-lApxwD736Mm3Hd3WlSiViLCJTfWs&cx=88201975a12a6f4fd&q=${translatedText.text}&start=${startIndex}`)
       ).then((response) => response.json());
   return {
     props: {
