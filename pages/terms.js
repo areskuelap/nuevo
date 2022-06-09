@@ -26,7 +26,8 @@ export default function About(data) {
         <div className="page_conentst_desc">
           
             
-            <p><strong>Privacy Policy</strong><br></br> Our privacy policy is subject to the determinations of Google Inc, which allows us to provide search results. See more at: https://policies.google.com/privacy?hl=en-US</p>
+            <p><strong>Privacy Policy</strong><br></br> Our privacy policy is subject to the determinations of Google Inc, which allows us to provide search results.</p>
+              <p> See more at: <a href="https://policies.google.com/privacy?hl=en-US" target="_blank">Google Privacy Policy</a></p>
             </div><div>
             <h2>Konlap Terms of Use</h2><br></br>
             <p>Last updated: May 20, 2022</p><br></br>
