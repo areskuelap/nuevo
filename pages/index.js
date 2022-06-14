@@ -217,7 +217,7 @@ const isMobile = width <= 768;
       <meta name="author" content="Konlap Technologies E.I.R.L"/>
 
 
-        <title>Konlap web browser </title>
+        <title>Konlap Web Browser </title>
         <link rel="icon" href="/favicon.png" />
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -271,7 +271,6 @@ const isMobile = width <= 768;
           <button onClick={search} className="btn text-lg font-semibold bg-sky-500 hover:bg-sky-600 p-2 text-gray-100 hover:text-gray-100">
             Translate
           </button>
-
           <button onClick={search} className="btn">
             I&apos;m Feeling Lucky
           </button>
@@ -297,8 +296,9 @@ const isMobile = width <= 768;
           <div className="w3-row-padding w3-center">
 
             <p className="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2 mx-auto text-xl font-medium text-gray-100">
-              Next to the search box, select a language you want to search in<br /> 
-              Try using longer sentences to get more accurate search results.
+              First, select the language you want to search in. <br /> 
+              Second, select the language in which you want to see the search results <br /> 
+              And thir, try using long queries to get more accurate search results.
 
             </p>
 
@@ -329,7 +329,7 @@ const isMobile = width <= 768;
           <div className="w3-col m6 text-white text-center md:text-left lg:text-left xl:text-left 2xl:text-left">
             <h3 style={{ fontSize: "25px", fontWeight: "400", color: "#fff", lineHeight: "33px" }}>The content you access is determined by the language you speak</h3>
             <p className="mt-8 text-lg leading-8">Searching the web may not always satisfy a searcher's query, because relevant results might not even exist in the searcher's language.</p>
-            <p>Tackling the language barrier on the Internet is more than just increasing the number of Internet users. It is about making knowledge accessible to more users who speak a diversity of languages</p>
+            <p className="mt-8 text-lg leading-8">Tackling the language barrier on the Internet is more than just increasing the number of Internet users. It is about making knowledge accessible to more users who speak a diversity of languages</p>
           </div>
           <div className="w3-col m5 mt-10">
             <p className="w3-wide text-lg"><i className="fa fa-globe w3-margin-right"></i>Websites in English</p>
@@ -361,7 +361,6 @@ const isMobile = width <= 768;
               <h5 className="text-xl font-bold">Encrypted connection</h5>
               <p className="text-lg font-medium text-center">Your IP address is removed from all our global premise servers.</p>
             </div>
-
             <div className="service flex flex-col items-center bg-white gap-y-2  px-6 py-10  rounded-lg shadow-lg">
               <div className="service-icon ">
                 <i className="fa fa-usd" style={{ fontSize: "45px", color: "#F77779" }} aria-hidden="true"></i>
@@ -369,7 +368,6 @@ const isMobile = width <= 768;
               <h5 className="text-xl font-bold">Block price trackers</h5>
               <p className="text-lg font-medium text-center">We prevent 3rd parties from setting price trackers on you.</p>
             </div>
-
             <div className="service flex flex-col items-center bg-white gap-y-2 px-6 py-10  rounded-lg shadow-lg">
               <div className="service-icon ">
                 <i className="fa fa-adn" style={{ fontSize: "45px", color: "#F77779" }} aria-hidden="true"></i>
@@ -377,7 +375,6 @@ const isMobile = width <= 768;
               <h5 className="text-xl font-bold">Avoid ads</h5>
               <p className="text-lg font-medium text-center">We block 3rd parties from accessing your personal data to target you.</p>
             </div>
-
             <div className="service flex flex-col items-center bg-white gap-y-2  px-6 py-10 rounded-lg shadow-lg">
               <div className="service-icon ">
                 <i className="fa fa-chrome" style={{ fontSize: "45px", color: "#F77779" }} aria-hidden="true"></i>
@@ -385,7 +382,6 @@ const isMobile = width <= 768;
               <h5 className="text-xl font-bold">Browse anonymously</h5>
               <p className="text-lg font-medium text-center">Anonymous View proxy masks your identity while browsing other websites.</p>
             </div>
-
             <div className="service flex flex-col items-center bg-white gap-y-2 px-6 py-10 rounded-lg shadow-lg">
               <div className="service-icon ">
                 <i className="fa fa-newspaper-o" style={{ fontSize: "45px", color: "#F77779" }} aria-hidden="true"></i>
@@ -393,7 +389,6 @@ const isMobile = width <= 768;
               <h5 className="text-xl font-bold">Receive unprofiled news</h5>
               <p className="text-lg font-medium text-center">Access news that’s not based on your browsing behavior.</p>
             </div>
-
             <div className="service flex flex-col items-center bg-white gap-y-2 px-6 py-10 rounded-lg shadow-lg">
               <div className="service-icon ">
                 <i className="fa fa-tasks" style={{ fontSize: "45px", color: "#F77779" }} aria-hidden="true"></i>
@@ -419,7 +414,6 @@ const isMobile = width <= 768;
         {`window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'G-NL828ZY4WM');`}
       </script>
     </div >
